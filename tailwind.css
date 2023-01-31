@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@500&family=Ubuntu:wght@500&display=swap');
+
+
+@layer base{
+    a,p{
+        @apply font-openSans
+    }
+}
