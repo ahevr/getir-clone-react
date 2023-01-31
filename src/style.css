@@ -636,6 +636,10 @@ a,p {
   font-family: Quicksand, sans-serif;
 }
 
+.font-openSans {
+  font-family: Open Sans, sans-serif;
+}
+
 .text-sp {
   font-size: 14px;
   line-height: 20px;
