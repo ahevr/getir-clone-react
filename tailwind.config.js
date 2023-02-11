@@ -12,10 +12,14 @@ module.exports = {
         '2xl' : '1200px'
       },
     },
-    fontSize: {
-      sp: ['14px', '20px'],
-    },
+    // fontSize: {
+    //   sp: ['14px', '20px'],
+    // },
     extend: {
+      colors: {
+        'regal-blue': '#4c3398',
+        'regal-yellow': '#ffd328'
+      },
       backgroundColor: theme => ({
         'brand-color' : '#4c3398',
         'brand-hover-color' : '#6642c2'

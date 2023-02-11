@@ -16,9 +16,9 @@ const Header = () => {
             <a href="." className='text-white hover:bg-brand-hover-color py-2 p-1 rounded-t-lg font-openSans tracking-wide'>getirsu</a>
             </div>
             <nav class="flex gap-x-8 ">
-                <a href="." className="text-gray-300 flex items-center gap-2 text-sp"><TfiWorld size={16} /> Türkçe (TR)</a>
-                <a href="." className="text-gray-300 flex items-center gap-2 text-sp"><FaUserAlt size={16} /> Giriş Yap</a>
-                <a href="." className="text-gray-300 flex items-center gap-2 text-sp"><FaUserPlus size={16} /> Kayıt Ol</a>
+                <a href="." className="text-gray-300 flex items-center gap-2 text-sm"><TfiWorld size={16} /> Türkçe (TR)</a>
+                <a href="." className="text-gray-300 flex items-center gap-2 text-sm"><FaUserAlt size={16} /> Giriş Yap</a>
+                <a href="." className="text-gray-300 flex items-center gap-2 text-sm"><FaUserPlus size={16} /> Kayıt Ol</a>
             </nav>
         </div>
     </div>
