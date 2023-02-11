@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
+import { FcGoogle } from 'react-icons/fc';
 
 const HeroSection = () => {
     const settings = {
@@ -25,7 +26,7 @@ const HeroSection = () => {
             </Slider>
 
             <div className="container flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-50">
-                <div className="">
+                <div>
                     <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" alt="" />
                     <h3 className='text-white mt-10 text-4xl font-openSans'>Dakikalar içinde <br /> kapınızda</h3>
                 </div>
