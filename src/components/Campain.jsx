@@ -5,7 +5,7 @@ const Campain = () => {
         <div className='container mx-auto py-4'>
             <h2 className='text-bold my-5'>Kampanyalar</h2>
 
-            <div className="flex justify-between gap-6 ">
+            <div className="flex flex-col p-5 lg:flex-row justify-between gap-6 ">
                 <div className='group'>
                     <a href=".">
                         <img className='group-hover:scale-110 duration-500 rounded-lg' width={500} src="https://cdn.getir.com/misc/promo_tr_eea9be93-21fc-49a0-bd6c-53577ddeb3e2.jpg" alt="" />
@@ -23,7 +23,7 @@ const Campain = () => {
                 </div>
             </div>
 
-            <div className="mt-10 relative flex">
+            <div className="hidden lg:flex mt-10 relative ">
                 <img className='rounded-lg h-[300px] bg-brand-color' src="https://cdn.getir.com/getirweb-images/common/illustration/doodle.png" alt="" />
                 <div className="flex flex-col absolute justify-between top-10 p-6 space-y-5 w-1/2">
                     <h1 className='text-white text-2xl'>Getir'i indirin!</h1>

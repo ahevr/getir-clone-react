@@ -3,7 +3,7 @@ import { BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs';
 const Footer = () => {
     return (
         <div className='py-6 bg-gray-200'>
-            <div className="container flex justify-between my-4">
+            <div className="hidden lg:flex container flex-col items-center lg:flex-row justify-between my-4">
                 <div className="flex flex-col space-y-3">
                     <h1 className='text-regal-blue '>Getir'i İndirin</h1>
                     <img src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" alt="" />
@@ -45,9 +45,9 @@ const Footer = () => {
                 </div>
 
             </div>
-            <hr className='h-1 bg-gray-300 my-5' />
+            <hr className='h-1 bg-gray-300 my-0 lg:my-5' />
 
-            <div className="container flex justify-between items-center">
+            <div className="container flex flex-col gap-5 lg:flex-row justify-between items-center">
 
                 <div className="flex gap-2">
                     <p>© 2023 Getir</p>

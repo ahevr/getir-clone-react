@@ -13,7 +13,7 @@ const HeroSection = () => {
     };
     return (
 
-        <div className='relative h-[500px] before:bg-gradient-to-r before:from-regal-blue  before:to-transparent before:absolute before:top-0 before:left before:w-full before:h-full before:z-10'>
+        <div className='hidden lg:block relative h-[500px] before:bg-gradient-to-r before:from-regal-blue  before:to-transparent before:absolute before:top-0 before:left before:w-full before:h-full before:z-10'>
             <Slider {...settings}>
                 <div>
                     <img className='w-full h-[500px] object-cover' src="https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-4.jpg" alt="" />

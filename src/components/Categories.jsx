@@ -12,7 +12,7 @@ const Categories = () => {
     return (
         <div className='container mx-auto py-4'>
             <h2 className='text-bold'>Kategoriler</h2>
-            <div className="grid grid-cols-10">
+            <div className="grid grid-cols-3 lg:grid-cols-10">
                 {categories && categories.map((category,index) => <Category key={index} category={category} />)   }
             </div>
         </div>

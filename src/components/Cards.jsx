@@ -12,7 +12,7 @@ const Cards = () => {
 
     return (
         <div className='container mx-auto mb-6 '>
-            <div className="flex justify-between my-5 items-center text-center gap-5">
+            <div className="flex flex-col p-5 lg:flex-row justify-between my-5 items-center text-center gap-5">
                 {cards.length && cards.map(card => (
                     <div className='flex flex-col bg-gray-200 p-10 rounded-lg items-center w-[600px] group'>
                         <img src={card.image} className="group-hover:scale-110 duration-500 rounded-lg" width={150} alt="" />
